@@ -1,18 +1,21 @@
+/* sizing for all images */
 .image {
     width: 200px;
     height: 200px;
 }
 
+/* main profile image */
 #dane {
     float:left;
     margin: 10px;
 }
 
+/* These are the images for the portfolio */
 #hangman {
     float: left;
     margin: 20px;
     position: relative;
-    z-index; -2;
+    z-index: -2;
 }
 
 #rpg {
@@ -44,7 +47,9 @@
     right: 240px;
     z-index: -2;
 }
+/* end images for portfolio*/
 
+/* code for the box that contains my name on every page */
 .name {
     background: #4aaaa5;
     color: white;
@@ -63,31 +68,44 @@
     background: #4aaaa5;
     color: white;
     width: 200px;
-    height: 50px;
+    height: 35px;
     text-align: center;
+    padding-top: 15px;
 }
 
 #box1 {
     position: relative;
+    bottom: 338px;
+    left: 20px;
+    z-index: 1;
 }
 
 #box2 {
     position: relative;
+    bottom: 409px;
+    left: 260px;
 }
 
 #box3 {
     position: relative;
+    bottom: 238px;
+    left: 20px;
 }
 
 #box4 {
     position: relative;
+    bottom: 309px;
+    left: 270px;
 }
 
 #box5 {
     position: relative;
+    bottom: 130px;
+    left: 24px;
 }
 /* end section to manage the portfolio boxes*/
 
+/* general styling for all the pages */
 .links {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     position: relative; 
@@ -132,7 +150,9 @@ footer {
     left: 180px;
     z-index: -3;
 }
+/* end general styling for all the pages */
 
+/* Had to make the main-content box bigger for the portfolio */
 #portfolio {
     height: 850px;
 }
