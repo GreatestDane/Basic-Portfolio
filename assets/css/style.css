@@ -8,6 +8,37 @@
     margin: 10px;
 }
 
+#hangman {
+    float: left;
+    margin: 20px;
+}
+
+#rpg {
+    float: left;
+    margin: 20px;
+}
+
+#trivia {
+    margin: 20px;
+    position: relative;
+    right: 470px;
+    top: 250px;
+}
+
+#widgit {
+    margin: 20px;
+    position: relative;
+    left: 250px;
+}
+
+#rps {
+    margin: 20px;
+    position: relative;
+    top: 250px;
+    /* float: left; */
+    right: 240px;
+}
+
 .name {
     background: #4aaaa5;
     color: white;
@@ -63,6 +94,10 @@ footer {
     border: #dddddd solid 10px;
     position: relative;
     left: 180px;
+}
+
+#portfolio {
+    height: 850px;
 }
 
 /* Begin contact form CSS */
